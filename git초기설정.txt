@@ -1,0 +1,7 @@
+1. 깃허브에서 레퍼지토리 만들어서 링크 복사
+https://github.com/rambus2006/DS.git
+
+2. 레퍼지토리에 클론해서 만들기 
+깃허브 데스크탑 -> Current repository -> 옆에 add -> Clone a repository -> URL -> 복사한 링크 넣기, 깃 연결하고 싶은 폴더 경로 넣기 
+
+3. git remote add 이름 복사한레퍼지토리URL
