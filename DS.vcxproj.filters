@@ -13,21 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\ch01">
+      <UniqueIdentifier>{f9876982-676b-4a24-9318-b09dec2acef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ch02">
+      <UniqueIdentifier>{d4c84966-fc3d-4642-90bb-447a47b804d5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PrimeNumber.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="magicCard.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="HanoiTower.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="HanoiTowerTest.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch02.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Array.c">
@@ -71,6 +68,18 @@
     </ClCompile>
     <ClCompile Include="LinearQueueLinkedList.c">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimeNumber.c">
+      <Filter>소스 파일\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="magicCard.c">
+      <Filter>소스 파일\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="ch02.c">
+      <Filter>소스 파일\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionType.c">
+      <Filter>소스 파일\ch02</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

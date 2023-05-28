@@ -1,7 +1,9 @@
 #include<stdio.h>
 
 int main(void) {
+	//배열 선언
 	int i, j, b[5][3];
+	//배열에 값 넣기 (2차원 배열)
 	int a[3][5] = {{5,41,24,6,10},
 				   {50,33,20,15,11},
 				   {7,17,35,21,16}};
@@ -11,9 +13,10 @@ int main(void) {
 		for (j = 0; j < 5; j++) 
 			b[j][i] = a[i][j];	
 	}
+	
 	for (i = 0; i <5; i++) {
 		for (j = 0; j < 3; j++) {
-			printf("%d ",b[j][i] );
+			printf("%d ",b[i][j] );
 		}
 		printf("\n");
 	}
